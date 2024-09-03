@@ -208,7 +208,7 @@
      <gazebo>
         <plugin name="kobuki_controller" filename="libgazebo_ros_planar_move.so">
           <commandTopic>/cmd_vel</commandTopic>
-          <odometryTopic>ground_truth/odom</odometryTopic>
+          <odometryTopic>/odom</odometryTopic>
           <odometryFrame>odom</odometryFrame>
           <odometryRate>60.0</odometryRate>
           <robotBaseFrame>base_link</robotBaseFrame>
